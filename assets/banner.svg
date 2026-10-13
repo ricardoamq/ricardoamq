@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Ricardo Andres Munoz - Ingenieria en Computacion">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#101a2b"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#38bdf8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#38bdf8;#818cf8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#38bdf8;#34d399" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+
+  <circle cx="180" cy="70" r="150" fill="url(#glow1)">
+    <animate attributeName="cx" values="180;320;180" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1030" cy="260" r="170" fill="url(#glow2)">
+    <animate attributeName="cx" values="1030;880;1030" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <g filter="url(#soft)" opacity="0.55">
+    <circle cx="960" cy="70" r="6" fill="#38bdf8">
+      <animate attributeName="cy" values="70;52;70" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="120" r="4" fill="#818cf8">
+      <animate attributeName="cy" values="120;140;120" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="250" r="5" fill="#34d399">
+      <animate attributeName="cy" values="250;232;250" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="60" y="66" width="6" height="188" rx="3" fill="url(#accent)"/>
+
+  <text x="96" y="140" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="1">Ricardo Andrés Muñoz</text>
+
+  <text x="98" y="188" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#93c5fd">Ingeniería en Computación</text>
+
+  <text x="98" y="228" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#9ca3af">Java · Spring Boot · React · TypeScript · MySQL</text>
+
+  <g transform="translate(98,252)">
+    <rect x="0" y="0" width="236" height="34" rx="17" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.55"/>
+    <circle cx="20" cy="17" r="5" fill="#34d399">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="36" y="23" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e5e7eb">Open to opportunities</text>
+  </g>
+
+  <rect x="60" y="306" width="1080" height="3" rx="1.5" fill="url(#fade)" opacity="0.85"/>
+  <rect x="0" y="0" width="1200" height="320" rx="18" fill="none" stroke="#1f2937" stroke-width="2"/>
+</svg>
