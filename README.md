@@ -130,7 +130,7 @@ Sistema de facturación e inventario para negocios ecuatorianos: punto de venta,
 
 <p align="center">
   <a href="https://github.com/ricardoamq/facturapro-ec"><img src="https://img.shields.io/badge/Repositorio-292A35?style=for-the-badge&logo=github&logoColor=white" alt="Ver repositorio / Source code" /></a>
-  <a href="https://github.com/ricardoamq/facturapro-ec/tree/master/docs"><img src="https://img.shields.io/badge/Documentaci%C3%B3n%20%C2%B7%20Docs-0F766E?style=for-the-badge&logo=markdown&logoColor=white" alt="Ver documentación / Docs" /></a>
+  <a href="https://github.com/ricardoamq/facturapro-ec"><img src="https://img.shields.io/badge/Documentaci%C3%B3n%20%C2%B7%20Docs-0F766E?style=for-the-badge&logo=markdown&logoColor=white" alt="Ver documentación / Docs" /></a>
 </p>
 
 ---
