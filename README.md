@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ricardo-mu%C3%B1oz-quimi-0043213b3)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/ricardo-andrés-muñoz-quimi-0043213b3)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramunoz.quimi@gmail.com)
 [![Open to Work](https://img.shields.io/badge/Open%20to%20Work-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ricardoamq)
 [![GitHub](https://img.shields.io/badge/@ricardoamq-292A35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ricardoamq)
